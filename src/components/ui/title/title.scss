@@ -1,0 +1,15 @@
+.heading-title {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.heading-title__title {
+  font-size: 1.875rem;
+}
+
+.heading-title__subtitle {
+  font-size: 1.25rem;
+  color: #666;
+}

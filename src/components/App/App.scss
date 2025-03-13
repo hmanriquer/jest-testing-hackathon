@@ -1,0 +1,29 @@
+.componentWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.routingWrapper {
+  margin: 20px;
+
+  * {
+    margin: 5px;
+  }
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.025em;
+}
+
+.wrapper-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 20px;
+}

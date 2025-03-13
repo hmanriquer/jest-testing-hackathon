@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Component should render with title and subtitle 1`] = `
+<div
+  className="heading-title"
+>
+  <h1
+    className="heading-title__title"
+  >
+    Hello World
+  </h1>
+  <p
+    className="heading-title__subtitle"
+  >
+    Welcome to the application
+  </p>
+</div>
+`;
+
+exports[`Title Component should render with title only 1`] = `
+<div
+  className="heading-title"
+>
+  <h1
+    className="heading-title__title"
+  >
+    Hello World
+  </h1>
+</div>
+`;
